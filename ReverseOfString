@@ -1,0 +1,11 @@
+class ReverseOfString{
+ public static void main(String args[])
+{
+   String name="Nila";
+   StringBuilder str=new StringBuilder();//String doesnot have reverse() method so creating stringbulder
+   str=str.append(name);
+   str=str.reverse();
+   for(int i=0;i<str.length();i++) //for printing each character
+   System.out.print(str.charAt(i));
+    
+}}
